@@ -1,0 +1,95 @@
+{
+    "appKeys": {
+        "KEY_VIBE_ON_DISCONECT": 1,
+        "KEY_VIBE_TIME": 0
+    },
+    "capabilities": [
+        "configurable"
+    ],
+    "companyName": "nickmsoccer@gmail.com",
+    "enableMultiJS": true,
+    "longName": "Starry",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "characterRegex": "[0-9:APM ]",
+                "file": "fonts/Star Trek_future.ttf",
+                "name": "FONT_STAR_TREK_38",
+                "targetPlatforms": null,
+                "type": "font"
+            },
+            {
+                "characterRegex": "[ -~ ]",
+                "file": "fonts/Star Trek_future.ttf",
+                "name": "FONT_STAR_TREK_28",
+                "targetPlatforms": null,
+                "type": "font"
+            },
+            {
+                "file": "images/time_background.png",
+                "name": "IMG_TIME_BACKGROUND",
+                "targetPlatforms": null,
+                "type": "bitmap"
+            },
+            {
+                "file": "images/milkey_way.png",
+                "name": "IMG_MILKEY_WAY",
+                "targetPlatforms": null,
+                "type": "bitmap"
+            },
+            {
+                "file": "images/blue_star.png",
+                "name": "IMG_BLUE_STAR",
+                "targetPlatforms": null,
+                "type": "bitmap"
+            },
+            {
+                "file": "images/starry_night.png",
+                "name": "IMG_STARRY_NIGHT",
+                "targetPlatforms": null,
+                "type": "bitmap"
+            },
+            {
+                "file": "images/star_and_tree.png",
+                "name": "IMG_STAR_AND_TREE",
+                "targetPlatforms": null,
+                "type": "bitmap"
+            },
+            {
+                "file": "images/swoosh.png",
+                "name": "IMG_SWOOSH",
+                "targetPlatforms": null,
+                "type": "bitmap"
+            },
+            {
+                "file": "images/nebula.png",
+                "name": "IMG_NEBULA",
+                "targetPlatforms": null,
+                "type": "bitmap"
+            },
+            {
+                "file": "images/sun.png",
+                "name": "IMG_SUN",
+                "targetPlatforms": [
+                    "aplite",
+                    "basalt",
+                    "chalk"
+                ],
+                "type": "bitmap"
+            }
+        ]
+    },
+    "sdkVersion": "3",
+    "shortName": "Starry",
+    "targetPlatforms": [
+        "aplite",
+        "basalt",
+        "chalk"
+    ],
+    "uuid": "e3e11729-82df-49d9-9c4b-d589a3973816",
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": true
+    }
+}
